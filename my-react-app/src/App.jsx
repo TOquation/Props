@@ -1,15 +1,16 @@
 import React from 'react'
 import './index.css'
-import UserGreeting from './UserGreeting'
-
-
-
-
+import User from './components/User'
+import List from './components/List'
 
 const App = () => {
   return (
     <div>
-      <UserGreeting />
+      <User isLogged name="Bello"/>
+      <User name="Bellerin"/>
+      <User />
+      <List />
+     
     </div>
 
   )

@@ -1,19 +1,15 @@
-/* .student{
-    border: 1px solid hsl(0, 3%, 8%);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    padding: 20px;
-} */
-
-.user-login{
-    background-color: lime;
-    font-size: 1.5rem;
-    color: white;
-    padding: 15px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.user-failed{
-    background-color: red;
-    font-size: 1.5rem;
-    color: white;
-    padding: 15px;
+
+a{
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+li{
+    display: flex;
+    justify-content: end;
 }
